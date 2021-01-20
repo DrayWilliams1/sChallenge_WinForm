@@ -137,6 +137,7 @@ namespace sChallengeWinForm
             this.helpLink.TabIndex = 6;
             this.helpLink.TabStop = true;
             this.helpLink.Text = "Help";
+            this.helpLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.helpLink_LinkClicked);
             // 
             // Login
             // 

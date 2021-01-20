@@ -88,5 +88,23 @@ namespace sChallengeWinForm
         {
 
         }
+
+        private void helpLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                VisitLink();
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open selected link.");
+            }
+        }
+
+        private void VisitLink()
+        {
+            var helpUrl = "https://github.com/DrayWilliams1/sChallenge_WinForm";
+            helpLink.LinkVisited = true; // changes the colour of the link once it has been visited
+            System.Diagnostics.Process.Start("explorer.exe", helpUrl); // Opens the link using the default browswer
+        }
     }
 }
