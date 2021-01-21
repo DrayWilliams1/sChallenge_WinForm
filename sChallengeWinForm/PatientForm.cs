@@ -88,6 +88,7 @@ namespace sChallengeWinForm
                     City = cityInput.Text,
                     Province = provinceInput.Text,
                     Country = countryInput.Text,
+                    Postal_Code = postalInput.Text,
                     HasCovid = hasCovid,
                     Phone = phoneInput.Text,
                     Email = emailInput.Text,

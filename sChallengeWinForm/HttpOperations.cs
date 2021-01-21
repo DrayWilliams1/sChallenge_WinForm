@@ -23,6 +23,7 @@ namespace sChallengeWinForm
             public string City { get; set; }
             public string Province { get; set; }
             public string Country { get; set; }
+            public string Postal_Code { get; set; }
             public bool HasCovid { get; set; }
             public string Phone { get; set; }
             public string Email { get; set; }
