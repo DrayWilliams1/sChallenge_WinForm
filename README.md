@@ -1,5 +1,5 @@
 # sChallenge_WinForm
-An .NET Windows Forms demonstration.
+A .NET Windows Forms demonstration.
 ## Summary
 Provides a basic windows form application to enter patient details for the Telehealth application.
 
