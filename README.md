@@ -8,3 +8,7 @@ Provides a basic windows form application to enter patient details for the Teleh
 **Note:** The Web API should be running before any app interaction to facilitate back-end operations (see sChallenge_WebAPI for details).
 
 Download the repo and open the solution in Visual Studio. Click the green play button to execute and windows application should open to login screen.
+
+**For testing purposes**:
+- Agent User || username: **agent1** password: **password**
+- Supervisor User || username: **super1** password: **password**
